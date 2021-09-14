@@ -1,0 +1,65 @@
+.users-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+img.user-image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.add-user {
+  display: flex;
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin: 5rem auto;
+  flex-direction: column;
+  width: 60%;
+}
+
+.edit-delete {
+  display: flex;
+}
+
+.user-name {
+  cursor: pointer;
+  font-weight: 600;
+}
+.user-name:hover {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.user-table {
+  max-width: 60%;
+}
+.table-box {
+  display: flex;
+  justify-content: center;
+}
+.table-heading {
+  background-color: black;
+}
+.white-color {
+  color: #fff;
+}
+
+.create-user-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0rem;
+}
+
+.create-user-inner {
+  max-width: 60%;
+}
+
+p.add-user-heading {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}

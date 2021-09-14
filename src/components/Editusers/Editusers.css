@@ -1,0 +1,13 @@
+.edit-user {
+  display: flex;
+  grid-gap: 1rem;
+  gap: 1rem;
+  margin: 5rem auto;
+  flex-direction: column;
+  width: 60%;
+}
+
+.edit-user-heading {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
